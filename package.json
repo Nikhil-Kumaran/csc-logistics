@@ -1,0 +1,28 @@
+{
+  "name": "version1",
+  "version": "1.0.0",
+  "description": "first verison of order management system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikhil Kumaran",
+  "license": "ISC",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "express-flash": "0.0.2",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.3.1",
+    "helmet": "^3.15.1",
+    "joi": "^14.3.1",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.13",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.10",
+    "path": "^0.12.7",
+    "pug": "^2.0.3"
+  }
+}

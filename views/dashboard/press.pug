@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(rel='stylesheet' href='/static/bower_components/bootstrap/dist/css/bootstrap.css')
+        link(rel="stylesheet", href="/static/css/layouts/main_layout.css")
+        block head
+    body
+        nav.navbar.navbar-expand-lg.navbar-dark.bg-primary
+            a.navbar-brand(href='/') CSC Computer Education
+            button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarSupportedContent.collapse.navbar-collapse
+                ul.navbar-nav.mr-auto
+                    li.nav-item.mx-lg-4
+                        a.nav-link(href='/')
+                            | Home 
+                            span.sr-only (current)
+                    li.nav-item.mx-lg-4
+                        a.nav-link(href='/about') About
+                    li.nav-item.dropdown.mx-lg-4
+                        a#navbarDropdown.nav-link.dropdown-toggle(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+                            | Dropdown
+                        .dropdown-menu(aria-labelledby='navbarDropdown')
+                            a.dropdown-item(href='#') Action
+                            a.dropdown-item(href='#') Another action
+                            .dropdown-divider
+                            a.dropdown-item(href='#') Something else here
+                .my-4.my-lg-0
+                    a(style='color: white').btn.mx-lg-4=user
+                    a(href='/entry/logout').btn.btn-outline-light Logout
+
+
+        br
+        br
+        .row(style='margin-left: 20px; margin-right: 20px;')
+            .col-3
+                #v-pills-tab.nav.flex-column.nav-pills.list-group(role='tablist', aria-orientation='vertical')
+                    a#v-pills-home-tab.nav-link.active.list-group-item(data-toggle='pill', href='#v-pills-home', role='tab', aria-controls='v-pills-home', aria-selected='true') Home
+                    a#v-pills-profile-tab.nav-link.list-group-item(data-toggle='pill', href='#v-pills-profile', role='tab', aria-controls='v-pills-profile', aria-selected='false') Profile
+                    a#v-pills-messages-tab.nav-link.list-group-item(data-toggle='pill', href='#v-pills-messages', role='tab', aria-controls='v-pills-messages', aria-selected='false') Messages
+                    a#v-pills-settings-tab.nav-link.list-group-item(data-toggle='pill', href='#v-pills-settings', role='tab', aria-controls='v-pills-settings', aria-selected='false') Settings
+            .col-9
+                #v-pills-tabContent.tab-content(style='text-align: justify')
+                    #v-pills-home.tab-pane.fade.show.active(role='tabpanel', aria-labelledby='v-pills-home-tab') Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam vel aliquid non, perspiciatis sapiente nobis cum quibusdam suscipit quis quos, beatae saepe minima eos placeat fugit reiciendis assumenda vitae? Quidem!
+                    #v-pills-profile.tab-pane.fade(role='tabpanel', aria-labelledby='v-pills-profile-tab') Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam voluptatem tempora incidunt in dicta eos qui voluptas modi ab, quibusdam ducimus perspiciatis consequuntur? Ipsa quis, corrupti doloribus facere, error commodi atque molestias saepe id itaque quasi at dignissimos, quisquam quia modi incidunt in magni omnis soluta asperiores! A voluptatibus, repellat iste, sit, corporis eveniet nesciunt tenetur qui quo ratione quasi dolorum ea odio minus? Hic alias sunt maiores et voluptate eaque velit officia possimus obcaecati natus aspernatur commodi eius, error, cum earum molestias eum reiciendis quia culpa illo reprehenderit quaerat quis porro vitae. Repellendus ut odit dolor provident maxime. Repellendus.
+                    #v-pills-messages.tab-pane.fade(role='tabpanel', aria-labelledby='v-pills-messages-tab') Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam facere repellendus aliquam ea tenetur reiciendis enim repudiandae et illum natus.
+                    #v-pills-settings.tab-pane.fade(role='tabpanel', aria-labelledby='v-pills-settings-tab') Lorem ipsum dolor sit amet consectetur adipisicing elit. Id reiciendis veritatis accusantium inventore ab maxime iure, illo ullam iste beatae neque quam laboriosam sint enim consequatur totam. Cupiditate ullam fugiat expedita officia facilis suscipit nemo corrupti autem modi officiis iusto, quos repellendus, nobis reiciendis, ipsa omnis aspernatur totam dicta non! Iusto esse explicabo aperiam quas odio, vitae praesentium cum eligendi doloribus illum, quos fugit. Libero delectus omnis culpa ullam magnam sunt eum dolorem deleniti corrupti, debitis iste doloremque, laborum animi quos, quae quaerat possimus sed consectetur quod architecto dolore illo? Excepturi nobis, quos architecto unde earum facere recusandae quis provident. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti iste velit dolore assumenda doloremque accusamus nisi libero fuga, dignissimos officiis tempore dicta inventore sed voluptas eius? Saepe repudiandae velit molestias quisquam, similique est nesciunt cupiditate mollitia laboriosam ullam voluptatem blanditiis hic et distinctio veritatis ab dolorem quasi voluptate. Iste, consequuntur? Officia vitae eaque, odio eveniet sint eligendi laborum eum quis sed impedit numquam animi debitis repellendus, iure modi vero aspernatur facere commodi odit! Odit quam possimus eius nesciunt eaque obcaecati labore incidunt repudiandae aperiam nobis. Fugiat magni laboriosam ducimus veritatis corrupti vel cupiditate sequi itaque consectetur nemo numquam facilis, quibusdam placeat expedita illum voluptas eveniet ipsa nobis, veniam ratione eligendi, doloremque sint harum nisi. A ipsum, quidem, incidunt quaerat vero id, sed impedit quis laborum rerum consequuntur nemo. Natus, eligendi nihil sed temporibus quas nemo repellat vero facere fuga, animi corporis praesentium et sapiente odit culpa. Sunt ut, quia itaque, totam dolore adipisci ad officia, quos quidem nam esse cum veniam tenetur error officiis perspiciatis tempora aspernatur culpa est voluptatibus cumque aperiam fugit. Earum facilis adipisci impedit consectetur nisi. Asperiores aperiam numquam dolor itaque quasi cupiditate eaque sequi quam id, officia nesciunt neque nemo ad vel eos perspiciatis ab tenetur perferendis distinctio consequuntur? Possimus incidunt ex sint? Fuga esse totam aperiam quidem fugiat itaque dolorum amet quaerat culpa alias magnam quo modi voluptatibus, voluptatum quae error repellat non eius iure distinctio quod ullam iusto dolorem? Necessitatibus nostrum quae delectus tempore debitis culpa sit quidem optio accusantium placeat odio, facere quas eaque nulla. Dolor dolorem itaque quod, cum ut repellendus praesentium eos doloremque aspernatur aliquam facere? Vitae excepturi adipisci delectus architecto eius, aspernatur qui soluta similique exercitationem recusandae labore tempora quis aut quidem molestiae reiciendis nemo deleniti perferendis ipsa in doloremque enim et iusto! Molestiae maxime dolor enim non, nostrum qui odio, ratione asperiores tempora voluptatibus repudiandae vero quaerat numquam quia libero dolores expedita dolore eos nihil, vel fugit? Eius dignissimos explicabo quo alias accusantium nobis. Inventore nam debitis ad, quos voluptatibus maiores animi hic omnis facere totam saepe dignissimos molestiae a libero provident quidem expedita sed dolorem magnam facilis aliquam! Aut quasi provident enim, soluta modi repudiandae sint commodi non porro aspernatur et architecto molestias earum excepturi suscipit iusto deleniti, amet maiores in ut sequi praesentium. Eum consequatur, voluptate veniam, aliquid delectus, assumenda aut dolore quam repellat qui laborum eaque minima. Nulla voluptatem saepe eligendi earum eius, beatae ipsa, suscipit necessitatibus quia laborum accusamus aliquam excepturi veritatis cum doloribus doloremque accusantium. Quis voluptatibus dignissimos vitae nam perferendis excepturi, delectus obcaecati officiis hic esse laboriosam voluptatum magni illum nisi, cumque natus error est impedit et necessitatibus soluta? Quo doloremque voluptatum impedit quis cum officiis dolorem itaque. Rem sapiente voluptatem iusto in ea suscipit sit saepe, ullam consequuntur quam repellendus omnis repudiandae autem voluptate optio dignissimos eaque perspiciatis corrupti modi ad dolores consectetur? Incidunt eveniet vero reprehenderit sequi cum doloremque? Tempore nam distinctio iusto excepturi dolorum cupiditate expedita dolore, dolor sequi labore reiciendis minus, recusandae quo eveniet dignissimos, corrupti velit voluptatibus officia!
+
+        block content
+        script(src="static/bower_components/jquery/dist/jquery.min.js")
+        script(src="static/bower_components/bootstrap/dist/js/bootstrap.js")
+
+        block scripts

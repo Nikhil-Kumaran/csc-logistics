@@ -1,0 +1,7 @@
+#footer p{
+    position: absolute;
+    top:100vh;
+    left: 50%;
+    transform: translate(-50%,-100%);
+
+}

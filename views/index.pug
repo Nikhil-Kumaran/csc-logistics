@@ -1,0 +1,18 @@
+extends layouts/main_layout
+
+block head
+    link(rel="stylesheet", href="static/css/index.css")
+    title=title
+
+
+block content
+    .container
+        br
+        br
+        h1(style='text-align: center') Purchase order management system
+        .users
+            ul.list-group
+                li.list-group-item.active Users
+                li.list-group-item Head Office
+                li.list-group-item Godown
+                li.list-group-item Press

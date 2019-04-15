@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(rel='stylesheet' href='/static/bower_components/bootstrap/dist/css/bootstrap.css')
+        link(rel='stylesheet' href='/static/css/login.css')
+        title Login Page
+    body
+        .container
+            br
+            br
+            .messages
+                each type in Object.keys(message)
+                    if(type != '_locals')
+                        each item in message[type]
+                            div(class="alert alert-"+type) #{item}
+            .form
+                h1.text-center Login Page
+                br
+                br
+                form(action="/entry/login", method="post")
+                    .input-group.mb-3
+                        .input-group-prepend
+                            span#basic-addon1.input-group-text.badge-primary Username
+                        input.form-control(type='text', placeholder='Username', name='username')
+                    .input-group.mb-3
+                        .input-group-prepend
+                            span#basic-addon1.input-group-text.badge-primary Password 
+                        input.form-control(type='password', placeholder='Password', name='password')
+                    .input-group.mb-3
+                        input(type='submit').btn.btn-outline-primary.btn-center
