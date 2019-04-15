@@ -1,0 +1,3 @@
+{"_id":{"$oid":"5c67ed1d329e4f0809a2fbb4"},"username":"ho","password":"ho","role":"ho"}
+{"_id":{"$oid":"5c67ed42329e4f0809a2fbb5"},"username":"godown","password":"godown","role":"godown"}
+{"_id":{"$oid":"5c67ed56329e4f0809a2fbb6"},"username":"press","password":"press","role":"press"}

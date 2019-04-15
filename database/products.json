@@ -1,0 +1,12 @@
+{"_id":{"$oid":"5c8b992531b9e80d7d40d032"},"description":"PYTHON","type":"static","piece_rate":{"$numberInt":"100"},"qty_per_unit":{"$numberInt":"1"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c8baa84a3881b0f075cf191"},"description":"WEB TECHNOLOGY","type":"static","piece_rate":{"$numberInt":"120"},"qty_per_unit":{"$numberInt":"1"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c8cb4d1ba844b0c32990cc2"},"description":"C LANGUAGE","type":"static","piece_rate":{"$numberInt":"110"},"qty_per_unit":{"$numberInt":"1"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c8cb4efba844b0c32990cc3"},"description":"VISUAL BASIC","type":"static","piece_rate":{"$numberInt":"120"},"qty_per_unit":{"$numberInt":"1"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c8cb6a3e06b9e0e913da8dc"},"description":"SQL SERVER","type":"static","piece_rate":{"$numberInt":"75"},"qty_per_unit":{"$numberInt":"1"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c8cb7f5a4c6330ede0bd345"},"description":"J2EE","type":"static","piece_rate":{"$numberInt":"100"},"qty_per_unit":{"$numberInt":"1"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c95c3161e3460065f4b4b77"},"description":"Test 1","type":"dynamic","piece_rate":{"$numberInt":"25"},"qty_per_unit":{"$numberInt":"1"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c95c810329a9208df2839ab"},"description":"Test 2","type":"dynamic","piece_rate":{"$numberInt":"20"},"qty_per_unit":{"$numberInt":"2"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c95ec168cc94b0e42bf10fb"},"description":"Test-3","type":"dynamic","piece_rate":{"$numberInt":"200"},"qty_per_unit":{"$numberInt":"1"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c96151365c05812fadc7a99"},"description":"MS-ACCESS","type":"static","piece_rate":{"$numberInt":"150"},"qty_per_unit":{"$numberInt":"1"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c96180e65c05812fadc7a9b"},"description":"Internet","type":"static","piece_rate":{"$numberInt":"200"},"qty_per_unit":{"$numberInt":"1"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c96265165c05812fadc7a9d"},"description":"JavaScript","type":"static","piece_rate":{"$numberInt":"100"},"qty_per_unit":{"$numberInt":"1"},"__v":{"$numberInt":"0"}}
